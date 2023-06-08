@@ -1,0 +1,106 @@
+.main_div {
+    //display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e1cae9;
+    color: black;
+    height: 94vh;
+    width: 80vw;
+    justify-content: center;
+    border-radius: 47px;
+    border: 2px solid black;
+}
+
+.heading_1 {
+    background-color: #f7f0f0;
+    color: black;
+    height: 9vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 45px;
+    box-shadow: 5px 10px #bdb2b2;
+    margin-bottom: 10px;
+    margin-top: 15px;
+
+}
+
+.heading_2 {
+    @extend .heading_1;
+}
+
+.heading_3 {
+    @extend .heading_1;
+}
+
+.heading_4 {
+    @extend .heading_1;
+}
+
+a.active_class {
+    color: pink;
+    border-bottom: 1px solid red;
+}
+
+.mainMenu_div {
+    background-color: #ebcfcf;
+    color: white;
+    height: 7vh;
+    width: 90vw;
+    margin-left: 28px;
+    margin-right: 28px;
+    margin-top: -111px;
+    border-radius: 14px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+.mainMenu_item {
+    border: 2px solid rgb(39, 39, 39);
+}
+.homecomponent_container {
+    height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .homecomponent_container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+        /* margin-top: -188px; */
+        background-color: black;
+    }
+
+    // .mainMenu_div {
+    //     background-color: #ebcfcf;
+    //     color: white;
+    //     height: 6vh;
+    //     width: 100%;
+    //     margin-left: 0px;
+    //     margin-right: 28px;
+    //     margin-top: 13px;
+    //     border-radius: 14px;
+    //     border: 2px solid white;
+    //     display: flex;
+    //     justify-content: center;
+    // }
+    .mainMenu_div {
+        background-color: #000000;
+        /* color: white; */
+        height: 6vh;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 28px;
+        margin-top: 13px;
+        border-radius: 22px;
+        // border: 2px solid white;
+        isplay: flex;
+        justify-content: center;
+    }
+
+
+}

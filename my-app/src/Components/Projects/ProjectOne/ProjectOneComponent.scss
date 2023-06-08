@@ -1,0 +1,118 @@
+.main_div1 {
+    color: white;
+    height: 100%;
+    width: 100%;
+    // border: 2px solid white;
+}
+
+.section_container {
+    background-color: #cfebd6;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.section_1 {
+    // background-color: rgb(2, 71, 71);
+    height: 80px;
+    width: 100%;
+}
+
+.section_2 {
+    // background-color: rgb(126, 117, 66);
+    height: 80px;
+    width: 100%;
+}
+
+.section_3 {
+    height: 198px;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 32px;
+}
+
+.section_4 {
+    // background-color: rgb(212, 44, 92);
+    height: 80px;
+    width: 100%;
+    // margin-top: -20px;
+
+}
+
+.search {
+    background: transparent;
+    border: none;
+    border-radius: 15px;
+}
+
+.TvShowItem {
+    margin-bottom: 21px;
+}
+
+@media only screen and (max-width: 768px) {
+    // .main_div1 {
+    //     background-color: #ebcfcf;
+    //     color: white;
+    //     height: 100%;
+    //     width: 100%;
+    //     margin-left: 0px;
+    //     margin-right: 28px;
+
+    // }
+    .main_div1 {
+        background-color: #ebcfcf;
+        color: white;
+        height: 100%;
+        width: 100%;
+        margin-left: 29px;
+        margin-right: 28px;
+    }
+    // .section_1 {
+    //     height: 100%;
+    //     width: 100%;
+    //     margin-top: 28px;
+    // }
+    .section_1 {
+        height: 100%;
+        width: 100%;
+        margin-top: 36px;
+        margin-left: 5px;
+    }
+
+    // .section_2 {
+    //     height: 100%;
+    //     width: 100%;
+    //     margin-top: 28px;
+    // }
+    .section_2 {
+        height: 100%;
+        width: 100%;
+        margin-top: 36px;
+    }
+
+    // .section_3 {
+    //     height: auto;
+    //     width: auto;
+    // }
+    .section_3 {
+        /* background-color: red; */
+        height: auto;
+        width: 92vw;
+        margin-top: 56px;
+    }
+
+    .section_4 {
+        height: auto;
+        width: auto;
+        margin-top: 25px;
+    }
+    .container{
+        height: 100%;
+        width: 100%;
+    }
+
+
+}
